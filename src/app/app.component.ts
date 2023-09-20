@@ -9,6 +9,8 @@ import { ApiService } from './api.service';
 export class AppComponent {
   // Creando un objeto para cada respuesta en el template
   // Tipifiquen! (agreguen los tipos de datos)
+
+  
   nuevoDatoGet: any = { id: '' };
   nuevoDatoGetById: any = { id: '' };
   nuevoDatoPost: any = { nombre: '', edad: null };

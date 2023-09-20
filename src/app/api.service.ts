@@ -9,7 +9,7 @@ import { catchError } from 'rxjs/operators';
 export class ApiService {
 
   // Definimos la URL de la API - Endpoint
-  private baseUrl = 'https://techcamp-a21a5-default-rtdb.firebaseio.com/';
+  private baseUrl = '';
 
   // Inyectamos el servicio HttpClient
   constructor(private http: HttpClient) { }
